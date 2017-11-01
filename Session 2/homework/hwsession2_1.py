@@ -1,3 +1,4 @@
+print("Welcome to the BMI calculator")
 n = int(input("Enter your weight (kg): "))
 m = int(input("Enter your height (cm): "))
 height = m*0.01

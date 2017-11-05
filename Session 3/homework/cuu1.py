@@ -1,0 +1,10 @@
+SheepSize = [15, 20, 45, 73, 48]
+print("Hello, i'm Phong and this is my flock: ")
+print(*SheepSize, sep=', ')
+print()
+print("Now my biggest sheep has size", max(SheepSize), ", let's sheer it :)")
+print()
+SheepSize.remove(max(SheepSize))
+SheepSize.insert(3, 8)
+print("Now here is my flock after sheering: ")
+print(*SheepSize, sep=', ')
